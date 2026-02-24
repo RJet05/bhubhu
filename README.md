@@ -187,6 +187,7 @@ POST /compare
       "total_lifecycle_co2": 13082.0
     }
   ],
+
    "petrol_diesel_top_3": [
       {
         "make": "Toyota",
@@ -213,6 +214,7 @@ POST /compare
         "total_lifecycle_co2": 24250.73
       }
    ],
+
    "ev_top_3": [
      {
       "make": "Kia",
@@ -239,6 +241,7 @@ POST /compare
       "total_lifecycle_co2": 12942.0
     }
    ],
+
    "hybrid_top_3": [
    {
       "make": "Volvo",
