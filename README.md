@@ -1,8 +1,8 @@
-# 🌍 Carbon-Wise: Vehicle Lifecycle CO₂ Comparison Engine
+# Carbon-Wise: Vehicle Lifecycle CO₂ Comparison Engine
 
 A modern full-stack web application that helps users make informed decisions about vehicle choices based on total lifecycle CO₂ emissions (manufacturing + use phase).
 
-## 🎯 Features
+## Features
 
 - **Comprehensive Lifecycle Analysis**: Calculate total CO₂ emissions from both manufacturing and driving phases
 - **Vehicle Comparison**: Compare top 3 lowest emission vehicles in your chosen segment
@@ -12,7 +12,7 @@ A modern full-stack web application that helps users make informed decisions abo
 - **EV Support**: Handles electric vehicles with zero tailpipe emissions
 - **Real-time Calculation**: Instant calculation based on your driving patterns
 
-## 📊 Technology Stack
+## Technology Stack
 
 ### Backend
 - **Framework**: FastAPI (Python)
@@ -30,7 +30,7 @@ A modern full-stack web application that helps users make informed decisions abo
 - **Format**: CSV
 - **Records**: 45+ vehicles across multiple segments and fuel types
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -106,7 +106,7 @@ A modern full-stack web application that helps users make informed decisions abo
 5. **Open in browser**
    - Navigate to `http://localhost:3000`
 
-## 📖 API Documentation
+## API Documentation
 
 ### Endpoints
 
@@ -210,7 +210,7 @@ Lifetime_km = Daily_Mileage × 365 × Ownership_Period
 total_lifecycle_co2 = manufacturing_co2_kg + use_phase_co2
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BHU/
@@ -244,7 +244,7 @@ BHU/
 └── README.md                    # This file
 ```
 
-## 🗄️ Dataset Columns
+## Dataset Columns
 
 - `make`: Vehicle manufacturer
 - `model`: Vehicle model name
@@ -256,7 +256,7 @@ BHU/
 - `battery_co2_kg`: Battery manufacturing CO₂ (for EVs)
 - `total_manufacturing_co2_kg`: Total manufacturing emissions
 
-## 💡 Example Use Cases
+## Example Use Cases
 
 ### Scenario 1: Urban Commuter
 - **Daily Mileage**: 40 km
@@ -276,7 +276,7 @@ BHU/
 - **Segment**: Standard Utility Vehicle (SUV)
 - **Expected Result**: Compare SUVs considering higher manufacturing emissions
 
-## 🔧 Configuration
+## Configuration
 
 ### Frontend Environment Variables
 Create `.env.local` in the frontend directory:
@@ -291,7 +291,7 @@ PORT=8000
 HOST=0.0.0.0
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Failed to connect to API"
 - **Solution**: Ensure the FastAPI server is running on `http://localhost:8000`
@@ -312,13 +312,13 @@ HOST=0.0.0.0
 - Run `npm install` again
 - Clear npm cache: `npm cache clean --force`
 
-## 📈 Performance Tips
+## Performance Tips
 
 1. **Backend**: Dataset is loaded once at startup for faster queries
 2. **Frontend**: Results are cached client-side
 3. **API**: All calculations are performed server-side for consistency
 
-## 🌱 Sustainability Impact
+## Sustainability Impact
 
 This application helps users understand the **true environmental cost** of vehicle ownership, considering:
 - Manufacturing emissions (often overlooked)
@@ -326,11 +326,11 @@ This application helps users understand the **true environmental cost** of vehic
 - Impact of vehicle segment choice
 - Benefits of alternative fuel types (EV vs. Hybrid vs. Gasoline)
 
-## 📝 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 👨‍💻 Development
+## Development
 
 ### Adding New Vehicles
 1. Edit `data/vehicles_with_full_manufacturing_co2.csv`
@@ -345,7 +345,7 @@ This project is open source and available for educational purposes.
 1. Modify conversion factors in `backend/main.py`
 2. Update formulas in `convert_gpm_to_kg_per_km()` function
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend (FastAPI)
 - Deploy to AWS EC2, Google Cloud Run, or Heroku
@@ -357,7 +357,7 @@ This project is open source and available for educational purposes.
 - Or use AWS Amplify, Netlify, etc.
 - Update `NEXT_PUBLIC_API_URL` to point to production backend
 
-## 📞 Support
+## Support
 
 For issues or questions:
 1. Check the Troubleshooting section
@@ -365,5 +365,3 @@ For issues or questions:
 3. Check browser console for frontend errors
 
 ---
-
-**Made with 🌍 for a sustainable future!**
