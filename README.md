@@ -161,32 +161,110 @@ POST /compare
 ```json
 {
   "lifetime_km": 91250.0,
-  "top_3_cars": [
+  "overall_top_3": [
     {
-      "make": "Tesla",
-      "model": "Model 3",
-      "year": 2023,
-      "manufacturing_co2": 3450.0,
+      "make": "Kia",
+      "model": "EV9 Standard Range RWD",
+      "year": 2024,
+      "manufacturing_co2": 12713.0,
       "use_phase_co2": 0.0,
-      "total_lifecycle_co2": 3450.0
+      "total_lifecycle_co2": 12713.0
     },
     {
-      "make": "Nissan",
-      "model": "Leaf",
-      "year": 2023,
-      "manufacturing_co2": 3200.0,
+      "make": "Mercedes-Benz",
+      "model": "EQE 350 Plus",
+      "year": 2024,
+      "manufacturing_co2": 12865.0,
       "use_phase_co2": 0.0,
-      "total_lifecycle_co2": 3200.0
+      "total_lifecycle_co2": 12865.0
     },
     {
-      "make": "Toyota",
-      "model": "Prius",
-      "year": 2023,
-      "manufacturing_co2": 950.0,
-      "use_phase_co2": 2157.4,
-      "total_lifecycle_co2": 3107.4
+      "make": "Mercedes-Benz",
+      "model": "EQE 500 4matic",
+      "year": 2024,
+      "manufacturing_co2": 13082.0,
+      "use_phase_co2": 0.0,
+      "total_lifecycle_co2": 13082.0
     }
-  ]
+  ],
+   "petrol_diesel_top_3": [
+      {
+        "make": "Toyota",
+        "model": "Grand Highlander Hybrid Limited",
+        "year": 2024,
+        "manufacturing_co2": 8646.0,
+        "use_phase_co2": 14515.27,
+        "total_lifecycle_co2": 23161.27
+      },
+      {
+        "make": "Toyota",
+        "model": "Grand Highlander Hybrid ",
+        "year": 2024,
+        "manufacturing_co2": 9601.0,
+        "use_phase_co2": 13948.26,
+        "total_lifecycle_co2": 23549.26
+      },
+      {
+        "make": "Ford",
+        "model": "Escape Hybrid FWD",
+        "year": 2012,
+        "manufacturing_co2": 8504.0,
+        "use_phase_co2": 15746.73,
+        "total_lifecycle_co2": 24250.73
+      }
+   ],
+   "ev_top_3": [
+     {
+      "make": "Kia",
+      "model": "EV9 Standard Range RWD",
+      "year": 2024,
+      "manufacturing_co2": 12713.0,
+      "use_phase_co2": 0.0,
+      "total_lifecycle_co2": 12713.0
+     },
+     {
+      "make": "Mercedes-Benz",
+      "model": "EQE 350 Plus",
+      "year": 2024,
+      "manufacturing_co2": 12865.0,
+      "use_phase_co2": 0.0,
+      "total_lifecycle_co2": 12865.0
+      },
+      {
+      "make": "Ford",
+      "model": "Explorer USPS Electric",
+      "year": 2002,
+      "manufacturing_co2": 12942.0,
+      "use_phase_co2": 0.0,
+      "total_lifecycle_co2": 12942.0
+    }
+   ],
+   "hybrid_top_3": [
+   {
+      "make": "Volvo",
+      "model": "XC90 T8 AWD Recharge ext. Range",
+      "year": 2022,
+      "manufacturing_co2": 10549.0,
+      "use_phase_co2": 7427.73,
+      "total_lifecycle_co2": 17976.73
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee 4xe",
+      "year": 2022,
+      "manufacturing_co2": 11282.0,
+      "use_phase_co2": 10035.95,
+      "total_lifecycle_co2": 21317.95
+     },
+    {
+      "make": "BMW",
+      "model": "X5 xDrive45e",
+      "year": 2022,
+      "manufacturing_co2": 11441.0,
+      "use_phase_co2": 10092.65,
+      "total_lifecycle_co2": 21533.65
+     }
+   ]
 }
 ```
 
