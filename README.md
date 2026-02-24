@@ -131,11 +131,14 @@ GET /segments
 ```json
 {
   "segments": [
-    "Compact Car",
-    "Midsize Car",
-    "Full Size Truck",
-    "Small Utility Vehicle (SUV)",
-    "Standard Utility Vehicle (SUV)"
+   'Other',
+   'Van (Passenger / Minivan)',
+   'Pickup Truck (Small)',   
+   'Pickup Truck (Standard)',
+   'Special Purpose Vehicle',               
+   'Van (Cargo)',
+   'SUV (Standard / Large)',               
+   'SUV (Small)'
   ]
 }
 ```
