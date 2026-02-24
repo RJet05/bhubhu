@@ -32,9 +32,11 @@ A modern full-stack web application that helps users make informed decisions abo
 
 ### Dataset
 **All the below sources are combined for our dataset**
+- **Primary dataset**: https://www.fueleconomy.gov/feg/download.shtml
 - https://greet.anl.gov/
 - Central Electricity Authority
 - https://niti.gov.in/sites/default/files/2025-08/Electric-Vehicles-WEB-LOW-Report.pdf
+
 
 ## Quick Start
 
