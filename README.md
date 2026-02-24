@@ -30,6 +30,12 @@ A modern full-stack web application that helps users make informed decisions abo
 - **Format**: CSV
 - **Records**: 45+ vehicles across multiple segments and fuel types
 
+### Dataset
+**All the below sources are combined for our dataset
+- https://greet.anl.gov/
+- Central Electricity Authority
+- https://niti.gov.in/sites/default/files/2025-08/Electric-Vehicles-WEB-LOW-Report.pdf
+
 ## Quick Start
 
 ### Prerequisites
