@@ -135,9 +135,9 @@ GET /segments
    'Van (Passenger / Minivan)',
    'Pickup Truck (Small)',   
    'Pickup Truck (Standard)',
-   'Special Purpose Vehicle',               
+   'Special Purpose Vehicle',
    'Van (Cargo)',
-   'SUV (Standard / Large)',               
+   'SUV (Standard / Large)',
    'SUV (Small)'
   ]
 }
@@ -153,7 +153,7 @@ POST /compare
 {
   "daily_mileage": 50,
   "ownership_years": 5,
-  "vehicle_segment": "Compact Car"
+  "vehicle_segment": "SUV (Standard / Large)"
 }
 ```
 
