@@ -457,3 +457,5 @@ For issues or questions:
 3. Check browser console for frontend errors
 
 ---
+
+### Video: https://drive.google.com/file/d/1BxSkiEEw2YFLyaHKUm69ycLJDtHrja7O/view?usp=sharing
