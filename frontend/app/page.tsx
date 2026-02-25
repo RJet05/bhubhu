@@ -198,14 +198,21 @@ export default function Home() {
         )}
                 
 
-        {/* Chart */}
-        {results?.overall_top_3.length > 0 && (
+       {/* Chart */}
+        {results && (
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>
               CO₂ Emissions Breakdown(Overall Best 3)
             </h2>
             <div className={styles.chartContainer}>
-              <ComparisonChart cars={results.overall_top_3} />
+            <ComparisonChart
+            cars={[
+              ...(results.overall_top_3 || []),
+              ...(results.petrol_diesel_top_3 || []),
+              ...(results.ev_top_3 || []),
+              ...(results.hybrid_top_3 || []),
+            ]}
+          />
             </div>
             <div className={styles.chartLegend}>
               <p>
